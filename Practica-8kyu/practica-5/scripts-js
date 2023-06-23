@@ -1,0 +1,7 @@
+// Escribe una función que calcule el promedio de los números en una lista dada.
+// Nota: las matrices vacías deben devolver 0.
+
+const calcular = (array) => {
+
+ return (array.length > 0) ? array.reduce((acc, item) => acc + item) / array.length : 0
+}
