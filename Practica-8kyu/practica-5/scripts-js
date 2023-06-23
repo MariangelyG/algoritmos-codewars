@@ -5,3 +5,8 @@ const calcular = (array) => {
 
  return (array.length > 0) ? array.reduce((acc, item) => acc + item) / array.length : 0
 }
+
+console.log(calcular([1,1,1]));
+console.log(calcular([1,2,3]));
+console.log(calcular([1,2,3,4]));
+
