@@ -8,6 +8,5 @@ const booleanToString = (b) => {
 
   }
 
-  console.log(boolToWord(true));
-  console.log(boolToWord(false));
-  
+  console.log(booleanToString(true));
+  console.log(booleanToString(false));
