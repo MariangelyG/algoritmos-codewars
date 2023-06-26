@@ -6,7 +6,7 @@
 // "I love arrays they are my favorite" ==> ["I", "love", "arrays", "they", "are", "my", "favorite"]
 
 const stringToArray = (string) => {
-return string.split(" ");
+    return string.split(" ");
 }
 
 console.log(stringToArray("Robin Singh"));
