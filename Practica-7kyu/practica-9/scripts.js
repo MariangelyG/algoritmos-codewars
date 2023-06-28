@@ -1,16 +1,17 @@
-// Cree un programa que filtre una lista de cadenas y devuelva una lista con solo el nombre de sus amigos.
+/*Cree un programa que filtre una lista de cadenas y devuelva una lista con solo el nombre de sus amigos.
 
-// Si un nombre tiene exactamente 4 letras, ¡puede estar seguro de que tiene que ser un amigo suyo! De lo contrario, puede estar seguro de que no es...
+Si un nombre tiene exactamente 4 letras, ¡puede estar seguro de que tiene que ser un amigo suyo! De lo contrario, 
+puede estar seguro de que no es...
 
-// Ej: Entrada = ["Ryan", "Kieran", "Jason", "Tú"], Salida = ["Ryan", "Tú"]
+Ej: Entrada = ["Ryan", "Kieran", "Jason", "Tú"], Salida = ["Ryan", "Tú"]
 
-// es decir
+es decir
 
-// friend ["Ryan", "Kieran", "Mark"] `shouldBe` ["Ryan", "Mark"]
-// Nota: mantenga el orden original de los nombres en la salida.
+friend ["Ryan", "Kieran", "Mark"] `shouldBe` ["Ryan", "Mark"]
+Nota: mantenga el orden original de los nombres en la salida.*/
 
 
-function friend(friends){
+const friend = (friends) => {
     const amigo = friends.filter((friends => friends.length === 4))
    return amigo
    

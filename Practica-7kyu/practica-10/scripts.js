@@ -10,15 +10,8 @@
 
 
     const secondSymbol = (s, symbol) => {
-        let arr = [];
-        s.split("").forEach((item, index) => {
-          if (item === symbol) arr.push(index);
-        });
-        return arr[1] ? arr[1] : -1;
-      };
-
-    // return  s.indexOf(symbol, s.indexOf(symbol) + 1)
-    
+    return  s.indexOf(symbol, s.indexOf(symbol) + 1)
+    }
 
   console.log(secondSymbol('Hello world!!!','l'));
   console.log(secondSymbol('Hello world!!!', 'o'));

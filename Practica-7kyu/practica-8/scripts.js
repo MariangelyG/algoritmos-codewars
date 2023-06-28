@@ -4,7 +4,7 @@
 
 // Si la matriz de entrada está vacía, considérela como: [0](matriz con cero).
 
-function oddOrEven(array) {
+const oddOrEven = (array) => {
     const sum = array.reduce((acc, item) => acc + item, 0)
     return sum % 2 === 0 ? "even" : "odd"
 

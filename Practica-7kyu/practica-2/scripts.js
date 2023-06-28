@@ -5,6 +5,11 @@
 // ["Eyes", "Glasses", "Monocles", "Telescopes"]
 // Todas las cadenas en la matriz pasada a su función tendrán diferentes longitudes, por lo que no tendrá que decidir cómo ordenar varias cadenas de la misma longitud.
 
-function sortByLength (array) {
+const sortByLength = (array) => {
     return array.sort((a, b) => a.length - b.length)
     }
+
+    console.log(sortByLength(["Beg", "Life", "I", "To"]));
+    console.log(sortByLength(["", "Moderately", "Brains", "Pizza"]));
+    console.log(sortByLength(["Longer", "Longest", "Short"]));
+    
