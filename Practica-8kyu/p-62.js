@@ -12,9 +12,9 @@ sumMul(4, -7)  ==> "INVALID"*/
 
     const sumMul = (n,m) =>{
         let multiplos = []
-        for(let i= n; i <= m-1; i += n){
+        for(let i= n; i < m; i += n){
             multiplos.push(i)
-        }return n < m ? multiplos.reduce((acc, item) =>  acc+item,0) : "INVALID" 
+        }return n < m ? multiplos.reduce((acc, item) =>  acc+item) : "INVALID" 
         }
     
 
